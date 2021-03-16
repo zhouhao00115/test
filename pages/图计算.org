@@ -23,4 +23,5 @@ fatherOf["乾隆"] = "雍正"
 fatherOf["雍正"] = "康熙"
 print(grandfatherOf["乾隆"] == X)
 ```
-*** 3、
+*** 3、计算连通图的效果
+***
