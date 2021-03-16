@@ -26,4 +26,5 @@ print(grandfatherOf["乾隆"] == X)
 *** 3、计算连通图的效果
 **** 编写一个路径查询程序，使其能输出图中所有路径。
 **** [[https://cdn.logseq.com/%2F0d994ad7-b7f0-4dca-be0b-f50c6759827e4e0bd1fb-da87-4fc5-a29b-9b80f50763512021_03_16_image.png?Expires=4769482570&Signature=NxF1Q4~9yw79eIYnXRARYjJzBr1qhD60fjXY8s5RN4yBZkJ41DSTjqbI7orfMfzQyh2Q3uQvBvaqbtKFpZUBsEXTpPcwSGbrixeDO9F1Npu5nF6t8-TiltW3kVs2p4P8nBG4MQ3z93zockaOLCaDGmhMGPZmKgxnkr9Vbc37fUMvjXXtUIJbbseVzje60N9cD7o-A0LQeThP~-sVQeiBrlv0ZDMLJYNg2fTgtlFhjor10OT6ISn-Av-847X0D-Dj~9Nefx5PDHS3kHUSCjVxZJ1Dfp~A~OHndgxBYWDWbNYKgHC1AeL3L2G7a-Glmq3nctYERZWvMLahcviBhNBfSw__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA]]
+**** 思路：
 ****
