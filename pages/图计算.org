@@ -5,7 +5,7 @@
 :PROPERTIES:
 :later: 1615885763766
 :END:
-*** 
+**** 
 ```
 from pyDatalog import pyDatalog
 pyDatalog.create_terms('factorial, N')
