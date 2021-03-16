@@ -61,5 +61,27 @@ while True:
 **** （c）要求运行结果提供一个候选人名单。
 **** 
 ```
+from pyDatalog import pyDatalog
+
+pyDatalog.create_terms('X,live,drive,type_word,can_be_hire')
++live('sms', 'jianqiao')
++live('bl', 'lundun')
++live('jian', 'silage')
++live('aws', 'lundun')
++live('gl', 'ludun')
+
++drive('sms')
++drive('bl')
++drive('aws')
++drive('gl')
+
++type_word('bl')
++type_word('jian')
++type_word('aws')
++type_word('gl')
+# 定义能够被雇佣的 员工
+can_be_hire(X) <= live(X, 'lundun') & drive(X) & type_word(X)
+
+print(can_be_hire(X))
 
 ```
