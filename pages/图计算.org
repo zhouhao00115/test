@@ -86,4 +86,3 @@ can_be_hire(X) <= live(X, 'lundun') & drive(X) & type_word(X)
 
 print(can_be_hire(X))
 ```
-**** （c）要求运行结果提供一个候选人名单。
