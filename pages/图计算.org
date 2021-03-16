@@ -2,6 +2,7 @@
 
 ** pydatalog基本计算示例
 *** 1、递归
+***
 *** 2、关联
 *** 
 ```from pyDatalog import pyDatalog
