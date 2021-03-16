@@ -5,11 +5,15 @@
 :PROPERTIES:
 :later: 1615885763766
 :END:
-*** ```from pyDatalog import pyDatalog
+*** 
+```
+from pyDatalog import pyDatalog
 pyDatalog.create_terms('factorial, N')
-factorial[N] = N*factorial[N-1] 
-factorial[1] = 1 
-print(factorial[3]==N) ```
+factorial[N] = N*factorial[N-1]
+factorial[1] = 1
+print(factorial[3]==N)
+
+ ```
 *** 2、关联关系
 *** 
 ```from pyDatalog import pyDatalog
