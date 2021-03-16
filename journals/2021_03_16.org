@@ -38,7 +38,7 @@ while True:
 **** 思路：
 ***** 创建一个图形数据，将现有的数据列入库中，然后对其内容进行计算分析。采用pydatalog的方式计算最为合适。
 **** 答案：
-***** import pyDatalog 
+**** import pyDatalog 
 pyDatalog.create_terms('X,live,drive,type_word,can_be_hire')
 
 #现在有几个应聘者
