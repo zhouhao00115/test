@@ -31,7 +31,7 @@ print(grandfatherOf["乾隆"] == X)
 **** 答案：
 **** 
 ```
-import  pyDatalog 
+import pyDatalog 
 pyDatalog.create_terms('X,Y,Z,link,can_reach')
 # there is a link between node 1 and node 2
 +link('a', 'b')
