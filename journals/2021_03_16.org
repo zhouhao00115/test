@@ -48,7 +48,8 @@ while True:
 ————————————————
 版权声明：本文为CSDN博主「qq_734449600」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
 原文链接：https://blog.csdn.net/q
-**** import pyDatalog 
+****
+**** ```import pyDatalog 
 pyDatalog.create_terms('X,live,drive,type_word,can_be_hire')
 
 #现在有几个应聘者
@@ -75,7 +76,7 @@ can_be_hire(X)  <= live(X,'lundun') & drive(X)  & type_word(X)
 print(can_be_hire(X))
 ————————————————
 版权声明：本文为CSDN博主「qq_734449600」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/qq_43373608/article/details/103182833
+原文链接：https://blog.csdn.net/qq_43373608/article/details/103182833```
 ��：
 **** import pyDatalog 
 pyDatalog.create_terms('X,live,drive,type_word,can_be_hire')
