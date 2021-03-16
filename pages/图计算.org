@@ -14,7 +14,7 @@ factorial[1] = 1
 print(factorial[3]==N)
 ```
 *** 2、关联关系
-*** ``
+**** ``
 from pyDatalog import pyDatalog
 pyDatalog.create_terms('X,Y,Z,father,fatherOf,grandfatherOf')
 (grandfatherOf[X] == Z) <= ((fatherOf[X] == Y) & (fatherOf[Y] == Z))
