@@ -4,13 +4,12 @@
 *** 1、递归
 *** ```import pydatalog```
 *** 2、关联
-*** 
-```from pyDatalog import pyDatalog
+*** ```from pyDatalog import pyDatalog
 pyDatalog.create_terms('X,Y,Z,father,fatherOf,grandfatherOf')
 (grandfatherOf[X] == Z) <= ((fatherOf[X] == Y) & (fatherOf[Y] == Z))
 fatherOf["乾隆"] = "雍正"
 fatherOf["雍正"] = "康熙"
 print(grandfatherOf["乾隆"] == X)
-```
+``
 ** 关于关联关系计算见[[python实现知识推理]]
 **
