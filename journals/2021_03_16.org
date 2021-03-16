@@ -38,4 +38,31 @@ while True:
 **** 思路：
 ***** 创建一个图形数据，将现有的数据列入库中，然后对其内容进行计算分析。采用pydatalog的方式计算最为合适。
 **** 答案：
-*****
+***** import pyDatalog 
+pyDatalog.create_terms('X,live,drive,type_word,can_be_hire')
+
+#现在又 几个 应聘者
+# sms  ,bl  , jian  ,aws   ,gl
+
++live('sms','jianqiao')
++live('bl','lundun')
++live('jian','silage')
++live('aws','lundun')
++live('gl','ludun')
+
++drive('sms')
++drive('bl')
++drive('aws')
++drive('gl')
+
++type_word('bl')
++type_word('jian')
++type_word('aws')
++type_word('gl')
+#定义能够被雇佣的 员工
+can_be_hire(X)  <= live(X,'lundun') & drive(X)  & type_word(X)
+
+print(can_be_hire(X))
+————————————————
+版权声明：本文为CSDN博主「qq_734449600」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/qq_43373608/article/details/103182833
