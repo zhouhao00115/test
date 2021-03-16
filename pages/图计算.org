@@ -61,7 +61,7 @@ while True:
 格林住在卢顿，会开车也会打字。
 **** （c）要求运行结果提供一个候选人名单。
 **** 答案如下：
-**** 
+***** 
 ```
 from pyDatalog import pyDatalog
 
