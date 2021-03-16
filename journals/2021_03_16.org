@@ -8,7 +8,26 @@ LE: Mar 16th, 2021
 ***** 该题目为计算图的连接关系，既然涉及到关系图的计算，则可以考虑采用pydatalog来实现。
 **** 
 **** 答案：
-****
+**** ``` import  pyDatalog 
+pyDatalog.create_terms('X,Y,Z,link,can_reach')
+# there is a link between node 1 and node 2
++link('a', 'b')
++link('a', 'c')
++link('c', 'd')
++link('b', 'd')
++link('b', 'e')
++link('d', 'e')
+# x y之间是否可达?
+can_reach(X, Y) <= link(X, Y)  # direct link
+# 递归查找 x，y 之间是否可达
+can_reach(X, Y) <= link(X, Z) & can_reach(Z, Y) & (X != Y)
+
+while True:
+    start_node=input('请输入出发的地点')
+    print(can_reach(start_node, Y))
+————————————————
+版权声明：本文为CSDN博主「qq_734449600」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/qq_43373608/article/details/103182833```
  import  pyDatalog 
 pyDatalog.create_terms('X,Y,Z,link,can_reach')
 # there is a link between node 1 and node 2
