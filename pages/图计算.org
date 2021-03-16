@@ -7,5 +7,5 @@ pyDatalog.create_terms('factorial, N')
 factorial[N] = N*factorial[N-1] 
 factorial[1] = 1 
 print(factorial[3]==N)
-** 关于关联关系计算见[[实现知识推理]]
+** 关于关联关系计算见[[python实现知识推理]]
 **
