@@ -83,5 +83,4 @@ pyDatalog.create_terms('X,live,drive,type_word,can_be_hire')
 can_be_hire(X) <= live(X, 'lundun') & drive(X) & type_word(X)
 
 print(can_be_hire(X))
-
 ```
