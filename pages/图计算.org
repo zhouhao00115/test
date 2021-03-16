@@ -16,5 +16,4 @@ fatherOf["乾隆"] = "雍正"
 fatherOf["雍正"] = "康熙"
 print(grandfatherOf["乾隆"] == X)
 ```
-** 关于关联关系计算见[[python实现知识推理]]
 **
