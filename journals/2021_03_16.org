@@ -41,7 +41,7 @@ while True:
 ***** import pyDatalog 
 pyDatalog.create_terms('X,live,drive,type_word,can_be_hire')
 
-#现在又 几个 应聘者
+#现在有几个应聘者
 # sms  ,bl  , jian  ,aws   ,gl
 
 +live('sms','jianqiao')
