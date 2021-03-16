@@ -60,6 +60,7 @@ while True:
 埃文斯住在伦敦，会开车也会打字。
 格林住在卢顿，会开车也会打字。
 **** （c）要求运行结果提供一个候选人名单。
+****
 **** 
 ```
 from pyDatalog import pyDatalog
